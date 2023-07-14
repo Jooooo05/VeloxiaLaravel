@@ -1,4 +1,3 @@
-
 @extends('layouts.main')
 
 
@@ -12,10 +11,8 @@
             <input type="radio" id="banner2" class="sec-1-input" name="banner">
             <input type="radio" id="banner3" class="sec-1-input" name="banner">
             <input type="radio" id="banner4" class="sec-1-input" name="banner">
-
             <div class="slider">
               <div id="top-banner-1" class="banner">
-
                 <div class="banner-inner-wrapper header-text">
                   <div class="main-caption">
                     <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
@@ -50,7 +47,6 @@
                     </div>
                   </div>
                 </div>
-                
               </div>
               <div id="top-banner-2" class="banner">
                 <div class="banner-inner-wrapper header-text">
@@ -161,7 +157,6 @@
                 </div>
               </div>
             </div>
-
             <nav>
               <div class="controls">
                 <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span class="text">1</span></label>
@@ -311,7 +306,7 @@
               </div>
               <div class="col-lg-4">
                 <div class="border-button">
-                  <a href="reservation.html">Book Yours Now</a>
+                  <a href="/reservation">Book Yours Now</a>
                 </div>
               </div>
             </div>
