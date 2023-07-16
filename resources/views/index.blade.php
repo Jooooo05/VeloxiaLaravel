@@ -17,7 +17,7 @@
                     <div class="main-caption">
                         <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
                         <h1>Caribbean</h1>
-                        <div class="border-button"><a href="about.html">Go There</a></div>
+                        <div class="border-button"><a href="/about">Go There</a></div>
                     </div>
                     <div class="container">
                         <div class="row">

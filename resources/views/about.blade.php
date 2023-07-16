@@ -3,8 +3,8 @@
 
 @section('blade')
 
-<!-- ***** Ma
-in Banner Area Start ***** -->
+<!-- ***** Main Banner Area Start ***** -->
+
 <div class="about-main-content">
     <div class="container">
         <div class="row">
