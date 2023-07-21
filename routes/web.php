@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\DealsController;
+use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ReservationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,28 +17,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index', [
-        "title" => "Home",
-    ]);
-});
+Route::get('/', [IndexController::class, 'index']);
 
-Route::get('/about', function () {
-    return view('about', [
-        "title" => "About"
-    ]);
-});
+Route::get('/about', [AboutController::class, 'about']);
 
-Route::get('/deals', function () {
-    return view('deals', [
-        "title" => "Deals"
-    ]);
-});
+Route::get('/deals', [DealsController::class, 'deals']);
 
-Route::get('/reservation', function () {
-    return view('reservation', [
-        "title" => "Reservation"
-    ]);
-});
+Route::get('/reservation', [ReservationController::class, 'reservation']);
 
 
