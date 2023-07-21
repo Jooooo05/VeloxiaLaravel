@@ -9,8 +9,8 @@
             <div class="col-lg-12">
                 <h4>Book Prefered Deal Here</h4>
                 <h2>Make Your Reservation</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttersi
-                    labore et dolore magna aliqua is ipsum suspendisse ultrices gravida</p>
+                <p>Finish your booking here, lets checkout and make sure all things that you want was included on your
+                    Reservation</p>
                 <div class="main-button"><a href="about.html">Discover More</a></div>
             </div>
         </div>
@@ -23,22 +23,22 @@
             <div class="col-lg-4 col-sm-6">
                 <div class="info-item">
                     <i class="fa fa-phone"></i>
-                    <h4>Make a Phone Call</h4>
-                    <a href="#">+123 456 789 (0)</a>
+                    <h4>CS Veloxia</h4>
+                    <a href="#">+62 xxx xxx xx</a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="info-item">
                     <i class="fa fa-envelope"></i>
-                    <h4>Contact Us via Email</h4>
-                    <a href="#">company@email.com</a>
+                    <h4>Confirm on Email</h4>
+                    <a href="#">veloxia@email.com</a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="info-item">
                     <i class="fa fa-map-marker"></i>
-                    <h4>Visit Our Offices</h4>
-                    <a href="#">24th Street North Avenue London, UK</a>
+                    <h4>Veloxia Office</h4>
+                    <a href="#">Jl. Kolonel Masturi No.288, Cihanjuang Rahayu</a>
                 </div>
             </div>
         </div>
@@ -61,12 +61,12 @@
                 <form id="reservation-form" name="gs" method="submit" role="search" action="#">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h4>Make Your <em>Reservation</em> Through This <em>Form</em></h4>
+                            <h4>Confirm <em>Reservation</em> Through This <em>Form</em></h4>
                         </div>
                         <div class="col-lg-6">
                             <fieldset>
                                 <label for="Name" class="form-label">Your Name</label>
-                                <input type="text" name="Name" class="Name" placeholder="Ex. John Smithee"
+                                <input type="text" name="Name" class="Name" placeholder="ex. TJ Sinaga"
                                     autocomplete="on" required>
                             </fieldset>
                         </div>
@@ -79,39 +79,39 @@
                         </div>
                         <div class="col-lg-6">
                             <fieldset>
-                                <label for="chooseGuests" class="form-label">Number Of Guests</label>
+                                <label for="chooseGuests" class="form-label">Number of Pax</label>
                                 <select name="Guests" class="form-select" aria-label="Default select example"
                                     id="chooseGuests" onChange="this.form.click()">
-                                    <option selected>ex. 3 or 4 or 5</option>
-                                    <option type="checkbox" name="option1" value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4+">4+</option>
+                                    <option selected>ex. 100 pax</option>
+                                    <option type="checkbox" name="option1" value="100">100</option>
+                                    <option value="150">150</option>
+                                    <option value="200">200</option>
+                                    <option value="250">250</option>
                                 </select>
                             </fieldset>
                         </div>
                         <div class="col-lg-6">
                             <fieldset>
-                                <label for="Number" class="form-label">Check In Date</label>
+                                <label for="Number" class="form-label">Event Date</label>
                                 <input type="date" name="date" class="date" required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <label for="chooseDestination" class="form-label">Choose Your Destination</label>
+                                <label for="chooseDestination" class="form-label">Choose Your Place</label>
                                 <select name="Destination" class="form-select" aria-label="Default select example"
                                     id="chooseCategory" onChange="this.form.click()">
-                                    <option selected>ex. Switzerland, Lausanne</option>
-                                    <option value="Italy, Roma">Italy, Roma</option>
-                                    <option value="France, Paris">France, Paris</option>
-                                    <option value="Engaland, London">Engaland, London</option>
-                                    <option value="Switzerland, Lausanne">Switzerland, Lausanne</option>
+                                    <option selected>ex. Villa Istana Bunga</option>
+                                    <option value="NusaDua">Nusa Dua</option>
+                                    <option value="RajaAmpat">Raja Ampat</option>
+                                    <option value="Lembang">Lembang</option>
+                                    <option value="PIK">Pantai Indah Kapuk</option>
                                 </select>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <button class="main-button">Make Your Reservation Now</button>
+                                <button class="main-button">Confirm your Book</button>
                             </fieldset>
                         </div>
                     </div>

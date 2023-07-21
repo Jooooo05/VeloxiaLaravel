@@ -11,11 +11,12 @@
             <div class="col-lg-12">
                 <div class="content">
                     <div class="blur-bg"></div>
-                    <h4>EXPLORE OUR COUNTRY</h4>
+                    <h4>FIND YOUR VENDOR</h4>
                     <div class="line-dec"></div>
-                    <h2>Welcome To Caribbean</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttersi
-                        labore et dolore magna aliqua is ipsum suspendisse ultrices gravida</p>
+                    <h2>Welcome To Bali</h2>
+                    <p>Bali, the "Island of the Gods," captivates with its breathtaking beauty. From pristine beaches to
+                        lush landscapes, it offers a paradise of turquoise waters, golden sands, and vibrant culture.
+                    </p>
                     <div class="main-button">
                         <a href="reservation.html">Discover More</a>
                     </div>
@@ -32,56 +33,56 @@
             <div class="slider-content">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>Caribbean’s <em>Cities &amp; Towns</em></h2>
+                        <h2>Bali <em>Beach &amp Mountains</em></h2>
                     </div>
                     <div class="col-lg-12">
                         <div class="owl-cites-town owl-carousel">
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-01.jpg" alt="">
-                                    <h4>Havana</h4>
+                                    <h4>Bidadari Cliffside Estate</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-02.jpg" alt="">
-                                    <h4>Kingston</h4>
+                                    <h4>Courtyard By Marriott</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-03.jpg" alt="">
-                                    <h4>George Town</h4>
+                                    <h4>Grand Hyatt</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-04.jpg" alt="">
-                                    <h4>Santo Domingo</h4>
+                                    <h4>Mahogany</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-01.jpg" alt="">
-                                    <h4>Havana</h4>
+                                    <h4>Bidadari Cliffside Estate</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-02.jpg" alt="">
-                                    <h4>Kingston</h4>
+                                    <h4>Courtyard By Marriott</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-03.jpg" alt="">
-                                    <h4>George Town</h4>
+                                    <h4>Grand Hyatt</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="thumb">
                                     <img src="assets/images/cities-04.jpg" alt="">
-                                    <h4>Santo Domingo</h4>
+                                    <h4>Mahogany</h4>
                                 </div>
                             </div>
                         </div>
@@ -97,9 +98,9 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="section-heading text-center">
-                    <h2>Best Weekly Offers In Each City</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore.</p>
+                    <h2>Best Places Offers in Bali</h2>
+                    <p>This is a selection of the offers provided by our vendors, according to the ratings provided by
+                        users</p>
                 </div>
             </div>
         </div>
@@ -112,14 +113,14 @@
                         <div class="thumb">
                             <img src="assets/images/offers-01.jpg" alt="">
                             <div class="text">
-                                <h4>Havana<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                                <h6>$420<br><span>/person</span></h6>
+                                <h4>Bidadari Cliffside Estate<br><span><i class="fa fa-users"></i> 100 pax</span></h4>
+                                <h6>150 juta<br><span>/event</span></h6>
                                 <div class="line-dec"></div>
                                 <ul>
                                     <li>Deal Includes:</li>
-                                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
+                                    <li><i class="fa fa-taxi"></i> Variety of Food</li>
+                                    <li><i class="fa fa-plane"></i> 5 Villa with 15 bedrooms</li>
+                                    <li><i class="fa fa-building"></i> Outdoor Event</li>
                                 </ul>
                                 <div class="main-button">
                                     <a href="reservation.html">Make a Reservation</a>

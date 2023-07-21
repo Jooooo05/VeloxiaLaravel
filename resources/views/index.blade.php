@@ -15,9 +15,9 @@
             <div id="top-banner-1" class="banner">
                 <div class="banner-inner-wrapper header-text">
                     <div class="main-caption">
-                        <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
-                        <h1>Caribbean</h1>
-                        <div class="border-button"><a href="/about">Go There</a></div>
+                        <h2>Find the best things for your event :</h2>
+                        <h1>Bali</h1>
+                        <div class="border-button"><a href="/about">Take a Glimpse</a></div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -26,19 +26,19 @@
                                     <div class="row">
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-user"></i>
-                                            <h4><span>Population:</span><br>44.48 M</h4>
+                                            <h4><span>Capacity:</span><br>150 pax</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-globe"></i>
-                                            <h4><span>Territory:</span><br>275.400 KM<em>2</em></h4>
+                                            <h4><span>Location:</span><br>Nusa Dua</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-home"></i>
-                                            <h4><span>AVG Price:</span><br>$946.000</h4>
+                                            <h4><span>Price:</span><br>Rp.100 Juta</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <div class="main-button">
-                                                <a href="about.html">Explore More</a>
+                                                <a href="about.blade.html">Explore</a>
                                             </div>
                                         </div>
                                     </div>
@@ -51,9 +51,9 @@
             <div id="top-banner-2" class="banner">
                 <div class="banner-inner-wrapper header-text">
                     <div class="main-caption">
-                        <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
-                        <h1>Switzerland</h1>
-                        <div class="border-button"><a href="about.html">Go There</a></div>
+                        <h2>Find the best things for your event :</h2>
+                        <h1>Papua</h1>
+                        <div class="border-button"><a href="/about/{{ $city }}">Take a Glimpse</a></div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -62,19 +62,19 @@
                                     <div class="row">
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-user"></i>
-                                            <h4><span>Population:</span><br>8.66 M</h4>
+                                            <h4><span>Capacity:</span><br>100 pax</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-globe"></i>
-                                            <h4><span>Territory:</span><br>41.290 KM<em>2</em></h4>
+                                            <h4><span>Location:</span><br>Raja Ampat</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-home"></i>
-                                            <h4><span>AVG Price:</span><br>$1.100.200</h4>
+                                            <h4><span>Price:</span><br>Rp.180 Juta</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <div class="main-button">
-                                                <a href="about.html">Explore More</a>
+                                                <a href="about.html">Explore</a>
                                             </div>
                                         </div>
                                     </div>
@@ -87,9 +87,9 @@
             <div id="top-banner-3" class="banner">
                 <div class="banner-inner-wrapper header-text">
                     <div class="main-caption">
-                        <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
-                        <h1>France</h1>
-                        <div class="border-button"><a href="about.html">Go There</a></div>
+                        <h2>Find the best things for your event :</h2>
+                        <h1>Jakarta</h1>
+                        <div class="border-button"><a href="/about">Take a Glimpse</a></div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -98,19 +98,19 @@
                                     <div class="row">
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-user"></i>
-                                            <h4><span>Population:</span><br>67.41 M</h4>
+                                            <h4><span>Capacity:</span><br>100 pax</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-globe"></i>
-                                            <h4><span>Territory:</span><br>551.500 KM<em>2</em></h4>
+                                            <h4><span>Location:</span><br>The Hermitage</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-home"></i>
-                                            <h4><span>AVG Price:</span><br>$425.600</h4>
+                                            <h4><span>Price:</span><br>Rp.80 Juta</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <div class="main-button">
-                                                <a href="about.html">Explore More</a>
+                                                <a href="about.html">Explore</a>
                                             </div>
                                         </div>
                                     </div>
@@ -123,9 +123,9 @@
             <div id="top-banner-4" class="banner">
                 <div class="banner-inner-wrapper header-text">
                     <div class="main-caption">
-                        <h2>Take a Glimpse Into The Beautiful Country Of:</h2>
-                        <h1>Thailand</h1>
-                        <div class="border-button"><a href="about.html">Go There</a></div>
+                        <h2>Find the best things for your event :</h2>
+                        <h1>Bandung</h1>
+                        <div class="border-button"><a href="/about">Take a Glimpse</a></div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -134,19 +134,19 @@
                                     <div class="row">
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-user"></i>
-                                            <h4><span>Population:</span><br>69.86 M</h4>
+                                            <h4><span>Capacity:</span><br>200 pax</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-globe"></i>
-                                            <h4><span>Territory:</span><br>513.120 KM<em>2</em></h4>
+                                            <h4><span>Location:</span><br>Grand Mercure</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <i class="fa fa-home"></i>
-                                            <h4><span>AVG Price:</span><br>$165.450</h4>
+                                            <h4><span>Price:</span><br>Rp.75 Juta</h4>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-6">
                                             <div class="main-button">
-                                                <a href="about.html">Explore More</a>
+                                                <a href="about.html">Explore</a>
                                             </div>
                                         </div>
                                     </div>
@@ -178,9 +178,9 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="section-heading">
-                    <h2>Visit One Of Our Countries Now</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore.</p>
+                    <h2>Meet our recommendation vendor</h2>
+                    <p>Your comfort is our happiness, we strive to provide various vendors with the best rating and
+                        quality for your event to be spectacular and organized</p>
                 </div>
             </div>
         </div>
@@ -198,17 +198,18 @@
                                     </div>
                                     <div class="col-lg-8 col-sm-7">
                                         <div class="right-content">
-                                            <h4>SWITZERLAND</h4>
-                                            <span>Europe</span>
+                                            <h4>Bali</h4>
+                                            <span>Nusa Dua</span>
                                             <div class="main-button">
-                                                <a href="about.html">Explore More</a>
+                                                <a href="about.html">Explore</a>
                                             </div>
-                                            <p>Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your
-                                                website. You can use this layout for your commercial work.</p>
+                                            <p>
+                                                Bali: Paradise found. Golden beaches, turquoise waters, lush landscapes,
+                                                and vibrant culture create an enchanting tapestry of beauty.</p>
                                             <ul class="info">
-                                                <li><i class="fa fa-user"></i> 8.66 Mil People</li>
-                                                <li><i class="fa fa-globe"></i> 41.290 km2</li>
-                                                <li><i class="fa fa-home"></i> $1.100.200</li>
+                                                <li><i class="fa fa-user"></i> 150 pax</li>
+                                                <li><i class="fa fa-globe"></i> Nusa Dua</li>
+                                                <li><i class="fa fa-home"></i> Rp. 100 juta</li>
                                             </ul>
                                             <div class="text-button">
                                                 <a href="about.html">Need Directions ? <i
@@ -229,18 +230,17 @@
                                     </div>
                                     <div class="col-lg-8 col-sm-7">
                                         <div class="right-content">
-                                            <h4>CARIBBEAN</h4>
-                                            <span>North America</span>
+                                            <h4>Papua</h4>
+                                            <span>Raja Ampat</span>
                                             <div class="main-button">
                                                 <a href="about.html">Explore More</a>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore dolor sit amet, consectetur adipiscing elit,
-                                                sed do eiusmod.</p>
+                                            <p>Raja Ampat: Nature's masterpiece. Pristine turquoise waters, vibrant
+                                                coral reefs, and secluded islands create a breathtaking paradise.</p>
                                             <ul class="info">
-                                                <li><i class="fa fa-user"></i> 44.48 Mil People</li>
-                                                <li><i class="fa fa-globe"></i> 275.400 km2</li>
-                                                <li><i class="fa fa-home"></i> $946.000</li>
+                                                <li><i class="fa fa-user"></i> 100 pax</li>
+                                                <li><i class="fa fa-globe"></i> Raja Ampat</li>
+                                                <li><i class="fa fa-home"></i> Rp. 180 juta</li>
                                             </ul>
                                             <div class="text-button">
                                                 <a href="about.html">Need Directions ? <i
@@ -261,19 +261,18 @@
                                     </div>
                                     <div class="col-lg-8 col-sm-7">
                                         <div class="right-content">
-                                            <h4>FRANCE</h4>
-                                            <span>Europe</span>
+                                            <h4>West Java</h4>
+                                            <span>Bandung</span>
                                             <div class="main-button">
                                                 <a href="about.html">Explore More</a>
                                             </div>
-                                            <p>We hope this WoOx template is useful for you, please support us a <a
-                                                    href="https://paypal.me/templatemo" target="_blank">small amount of
-                                                    PayPal</a> to info [at] templatemo.com for our survival. We really
-                                                appreciate your contribution.</p>
+                                            <p>Bandung: Enchanting and vibrant. Surrounded by lush hills and volcanic
+                                                mountains, it's a picturesque city with a thriving art scene and
+                                                stunning tea plantations.</p>
                                             <ul class="info">
-                                                <li><i class="fa fa-user"></i> 67.41 Mil People</li>
-                                                <li><i class="fa fa-globe"></i> 551.500 km2</li>
-                                                <li><i class="fa fa-home"></i> $425.600</li>
+                                                <li><i class="fa fa-user"></i> 100 pax</li>
+                                                <li><i class="fa fa-globe"></i> The Hermitage</li>
+                                                <li><i class="fa fa-home"></i> Rp. 80 juta</li>
                                             </ul>
                                             <div class="text-button">
                                                 <a href="about.html">Need Directions ? <i
@@ -318,8 +317,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <h2>Are You Looking To Travel ?</h2>
-                <h4>Make A Reservation By Clicking The Button</h4>
+                <h2>Are You Looking a Vendor ?</h2>
+                <h4>Lets Communicate with them by Clicking The Button</h4>
             </div>
             <div class="col-lg-4">
                 <div class="border-button">
