@@ -9,13 +9,13 @@
             <div class="col-lg-12">
                 <h4>Discover Our Best Offers</h4>
                 <h2>Friendly Prices &amp; More</h2>
-                <div class="border-button"><a href="about.html">Discover More</a></div>
+                <div class="border-button"><a href="{{ route('about') }}">Discover More</a></div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="search-form">
+{{-- <div class="search-form">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -61,7 +61,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 <div class="amazing-deals">
     <div class="container">
@@ -99,7 +99,7 @@
                                 <p>NURA ENTERPRISE merupakan perusahaan jasa yang
                                     bergerak dibidang Event Organizer.</p>
                                 <div class="main-button">
-                                    <a href="reservation.html">Books Vendor</a>
+                                    <a href="{{ route('reservation') }}">Books Vendor</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                                 </div>
                                 <p>There's a many things Consult with us for your next event.</p>
                                 <div class="main-button">
-                                    <a href="reservation.html">Books Vendor</a>
+                                    <a href="{{ route('reservation') }}">Books Vendor</a>
                                 </div>
                             </div>
                         </div>
@@ -200,15 +200,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
-                <ul class="page-numbers">
-                    <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-                    <li><a href="#">1</a></li>
-                    <li class="active"><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-                </ul>
-            </div>
+
         </div>
     </div>
 </div>
@@ -222,7 +214,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="border-button">
-                    <a href="reservation.html">Book Yours Now</a>
+                    <a href="{{ route('reservation') }}">Book Yours Now</a>
                 </div>
             </div>
         </div>

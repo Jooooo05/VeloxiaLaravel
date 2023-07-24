@@ -89,7 +89,7 @@
           <div class="main-caption">
             <h2>Find the best things for your event :</h2>
             <h1>Jakarta</h1>
-            <div class="border-button"><a href="about.html">Take a Glimpse</a></div>
+            <div class="border-button"><a href="/about">Take a Glimpse</a></div>
           </div>
           <div class="container">
             <div class="row">
@@ -125,7 +125,7 @@
           <div class="main-caption">
             <h2>Find the best things for your event :</h2>
             <h1>Bandung</h1>
-            <div class="border-button"><a href="about.html">Take a Glimpse</a></div>
+            <div class="border-button"><a href="/about">Take a Glimpse</a></div>
           </div>
           <div class="container">
             <div class="row">
@@ -146,7 +146,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6">
                       <div class="main-button">
-                        <a href="about.html">Explore More</a>
+                        <a href="/about">Explore More</a>
                       </div>
                     </div>
                   </div>
@@ -197,7 +197,7 @@
                       <h4>Bali</h4>
                       <span>Nusa Dua</span>
                       <div class="main-button">
-                        <a href="about.html" style="background-color: orange; border-color:white">Explore More</a>
+                        <a href="/about" style="background-color: orange; border-color:white">Explore More</a>
                       </div>
                       <p>Bali: Paradise found. Golden beaches, turquoise waters, lush landscapes,
                         and vibrant culture create an enchanting tapestry of beauty.</p>
@@ -207,7 +207,7 @@
                         <li><i class="fa fa-home"></i> Rp. 100 juta<</li>
                       </ul>
                       <div class="text-button">
-                        <a href="about.html">Need Directions ? <i class="fa fa-arrow-right"></i></a>
+                        <a href="/about">Need Directions ? <i class="fa fa-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -227,7 +227,7 @@
                       <h4>Papua</h4>
                       <span>Raja Ampat</span>
                       <div class="main-button">
-                        <a href="about.html" style="background-color: orange; border-color:white">Explore More</a>
+                        <a href="/about" style="background-color: orange; border-color:white">Explore More</a>
                       </div>
                       <p>Raja Ampat: Nature's masterpiece. Pristine turquoise waters, vibrant
                         coral reefs, and secluded islands create a breathtaking paradise.</p>
@@ -237,7 +237,7 @@
                         <li><i class="fa fa-home"></i> Rp. 180 juta</li>
                       </ul>
                       <div class="text-button">
-                        <a href="about.html">Need Directions ? <i class="fa fa-arrow-right"></i></a>
+                        <a href="/about">Need Directions ? <i class="fa fa-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -257,7 +257,7 @@
                       <h4>West Java</h4>
                       <span>Bandung</span>
                       <div class="main-button">
-                        <a href="about.html" style="background-color: orange; border-color:white">Explore More</a>
+                        <a href="/about" style="background-color: orange; border-color:white">Explore More</a>
                       </div>
                       <p>Bandung: Enchanting and vibrant. Surrounded by lush hills and volcanic
                         mountains, it's a picturesque city with a thriving art scene and
@@ -268,14 +268,15 @@
                         <li><i class="fa fa-home"></i> Rp. 80 juta</li>
                       </ul>
                       <div class="text-button">
-                        <a href="about.html">Need Directions ? <i class="fa fa-arrow-right"></i></a>
+                        <a href="/about">Need Directions ? <i class="fa fa-arrow-right"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-12">
+
+            {{-- <div class="col-lg-12">
               <ul class="page-numbers">
                 <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
                 <li><a href="#">1</a></li>
@@ -283,7 +284,8 @@
                 <li><a href="#">3</a></li>
                 <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
               </ul>
-            </div>
+            </div> --}}
+
           </div>
         </div>
       </div>
@@ -311,7 +313,7 @@
       </div>
       <div class="col-lg-4">
         <div class="border-button">
-          <a href="reservation.html">Book Yours Now</a>
+          <a href="/reservation">Book Yours Now</a>
         </div>
       </div>
     </div>

@@ -7,9 +7,25 @@ use App\Models\Reservation;
 
 class ReservationController extends Controller
 {
-    public function reservation(){
+    public function reservation()
+    {
+        // $reservations = Reservation::all();
+
         return view('reservation', [
-            "title" => "Reservation"
+            "title" => "resesrvartion"
         ]);
+    }
+
+    public function addDataToTable(Request $request)
+    {
+        $reserv = new Reservation();
+        $reserv->name = $request->Name;
+        $reserv->no_phone = $request->Number;
+        $reserv->pax = $request->Guests;
+        $reserv->date_order = $request->date;
+        $reserv->place = $request->Destination;
+        $reserv->save();
+
+        return redirect()->route('reservation');
     }
 }

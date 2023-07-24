@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\bookYoursController;
 use App\Http\Controllers\DealsController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ReservationController;
@@ -19,10 +20,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class, 'index']);
 
-Route::get('/about', [AboutController::class, 'about']);
+Route::get('/about', [AboutController::class, 'about'])->name('about');
 
-Route::get('/deals', [DealsController::class, 'deals']);
+Route::get('/deals', [DealsController::class, 'deals'])->name('deals');
 
-Route::get('/reservation', [ReservationController::class, 'reservation']);
+Route::get('/reservation', [ReservationController::class, 'reservation'])->name('reservation');
+Route::post('/store-reservation', [ReservationController::class, 'addDataToTable'])->name('store.reservation');
 
-
+Route::get('/bookYours', [bookYoursController::class, 'bookYours']);
