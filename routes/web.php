@@ -26,5 +26,8 @@ Route::get('/deals', [DealsController::class, 'deals'])->name('deals');
 
 Route::get('/reservation', [ReservationController::class, 'reservation'])->name('reservation');
 Route::post('/store-reservation', [ReservationController::class, 'addDataToTable'])->name('store.reservation');
+Route::get('/bookYours/{id}', [ReservationController::class, 'delete'])->name('deleteBookYours');
 
-Route::get('/bookYours', [bookYoursController::class, 'bookYours']);
+Route::get('/bookYours', [bookYoursController::class, 'bookYours'])->name('bookYours');
+
+Route::get('/dealsDetail/{id}', [DealsController::class, 'dealsDetail'])->name('dealsDetail');

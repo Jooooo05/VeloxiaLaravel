@@ -96,16 +96,26 @@
                                     <input type="date" name="date" class="date" required>
                                 </fieldset>
                             </div>
+
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <label for="negotiation" class="form-label">Your Negotiation Price</label>
+                                    <input type="text" id="negotiation" name="negotiation" class="negotiation"
+                                        placeholder="Rp ..." autocomplete="on" required>
+                                </fieldset>
+                            </div>
+
+
                             <div class="col-lg-12">
                                 <fieldset>
                                     <label for="chooseDestination" class="form-label">Choose Your Place</label>
                                     <select name="Destination" class="form-select" aria-label="Default select example"
                                         id="chooseCategory" onChange="this.form.click()">
                                         <option selected>ex. Villa Istana Bunga</option>
-                                        <option value="NusaDua">Nusa Dua</option>
-                                        <option value="RajaAmpat">Raja Ampat</option>
-                                        <option value="Lembang">Lembang</option>
-                                        <option value="PIK">Pantai Indah Kapuk</option>
+                                        <option value="NusaDua">Nusa Dua - Budi</option>
+                                        <option value="RajaAmpat">Raja Ampat - Hartono</option>
+                                        <option value="Lembang">Lembang - Laksman</option>
+                                        <option value="PIK">Pantai Indah Kapuk - Loce</option>
                                     </select>
                                 </fieldset>
                             </div>

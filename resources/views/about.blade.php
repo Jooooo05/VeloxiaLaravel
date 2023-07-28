@@ -289,75 +289,12 @@
                         labore.</p>
                 </div>
             </div>
+
             <div class="col-lg-8 offset-lg-2">
                 <div class="options">
-                    <div class="option active"
-                        style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-01.jpg);">
-                        <div class="shadow"></div>
-                        <div class="label">
-                            <div class="icon">
-                                <i class="fas fa-expand"></i>
-                            </div>
-                            <div class="info">
-                                <div class="main">Havana</div>
-                                <div class="sub">Population: 2M</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option"
-                        style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-02.jpg);">
-                        <div class="shadow"></div>
-                        <div class="label">
-                            <div class="icon">
-                                <i class="fas fa-expand"></i>
-                            </div>
-                            <div class="info">
-                                <div class="main">Kingston</div>
-                                <div class="sub">Population: 3.5M</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option"
-                        style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-03.jpg);">
-                        <div class="shadow"></div>
-                        <div class="label">
-                            <div class="icon">
-                                <i class="fas fa-expand"></i>
-                            </div>
-                            <div class="info">
-                                <div class="main">London</div>
-                                <div class="sub">Population: 4.1M</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option"
-                        style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-04.jpg);">
-                        <div class="shadow"></div>
-                        <div class="label">
-                            <div class="icon">
-                                <i class="fas fa-expand"></i>
-                            </div>
-                            <div class="info">
-                                <div class="main">Pristina</div>
-                                <div class="sub">Population: 520K</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="option"
-                        style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-05.jpg);">
-                        <div class="shadow"></div>
-                        <div class="label">
-                            <div class="icon">
-                                <i class="fas fa-expand"></i>
-                            </div>
-                            <div class="info">
-                                <div class="main">Paris</div>
-                                <div class="sub">Population: 3M</div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+
             <div class="col-lg-12">
                 <div class="main-button text-center">
                     <a href="{{ route('deals') }}">Discover All Places</a>

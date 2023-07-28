@@ -74,132 +74,41 @@
                         satisfaction.</p>
                 </div>
             </div>
+
+            @foreach ( $deals as $deal )
             <div class="col-lg-6 col-sm-6">
                 <div class="item">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="image">
-                                <img src="assets/images/deals-01.jpg" alt="">
+                                <img src="assets/images/{{ $deal->img }}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 align-self-center">
                             <div class="content">
-                                <span class="info">*Best Vendor in Bali</span>
-                                <h4>Nura Enterprise</h4>
+                                <span class="info">*Best Vendor in {{ $deal->name_place }}</span>
+                                <h4>{{ $deal->title }}</h4>
                                 <div class="row">
                                     <div class="col-6">
-                                        <i class="fa fa-clock"></i>
-                                        <span class="list">40 Event</span>
+                                        <span class="list">{{ $deal->vendor_name }}</span>
                                     </div>
                                     <div class="col-6">
                                         <i class="fa fa-map"></i>
-                                        <span class="list">Denpasar</span>
+                                        <span class="list">{{ $deal->name_area }}</span>
                                     </div>
                                 </div>
-                                <p>NURA ENTERPRISE merupakan perusahaan jasa yang
-                                    bergerak dibidang Event Organizer.</p>
+                                <p>{{ $deal->event }}</p>
                                 <div class="main-button">
-                                    <a href="{{ route('reservation') }}">Books Vendor</a>
+                                    <a href="/dealsDetail/{{ $deal->id }}">Books Vendor</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="item">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="image">
-                                <img src="assets/images/deals-02.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-center">
-                            <div class="content">
-                                <span class="info">*Best Vendor in Jakarta</span>
-                                <h4>Brave Ideas</h4>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <i class="fa fa-clock"></i>
-                                        <span class="list">76 Events</span>
-                                    </div>
-                                    <div class="col-6">
-                                        <i class="fa fa-map"></i>
-                                        <span class="list">Tebet Barat</span>
-                                    </div>
-                                </div>
-                                <p>There's a many things Consult with us for your next event.</p>
-                                <div class="main-button">
-                                    <a href="{{ route('reservation') }}">Books Vendor</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="item">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="image">
-                                <img src="assets/images/deals-03.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-center">
-                            <div class="content">
-                                <span class="info">*Best Vendor in Papua</span>
-                                <h4>Vicca Sera</h4>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <i class="fa fa-clock"></i>
-                                        <span class="list">36 Events</span>
-                                    </div>
-                                    <div class="col-6">
-                                        <i class="fa fa-map"></i>
-                                        <span class="list">Jayapura</span>
-                                    </div>
-                                </div>
-                                <p> Vicca Sera adalah sebuah perusahaan Event Organizer di Jayapura.</p>
-                                <div class="main-button">
-                                    <a href="reservation.html">Books Vendor</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="item">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="image">
-                                <img src="assets/images/deals-04.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-center">
-                            <div class="content">
-                                <span class="info">*Best Vendor in Bandung</span>
-                                <h4>Ayudha Event</h4>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <i class="fa fa-clock"></i>
-                                        <span class="list">66 Events</span>
-                                    </div>
-                                    <div class="col-6">
-                                        <i class="fa fa-map"></i>
-                                        <span class="list">Bandung</span>
-                                    </div>
-                                </div>
-                                <p>Kami tidak terbatas dalam menyediakan layanan sewa ke seluruh Jawa Barat & Jakarta.
-                                </p>
-                                <div class="main-button">
-                                    <a href="reservation.html">Books Vendor</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach()
+
+
 
         </div>
     </div>
@@ -220,5 +129,6 @@
         </div>
     </div>
 </div>
+
 
 @endsection()

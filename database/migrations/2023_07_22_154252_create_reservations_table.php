@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('no_phone');
             $table->bigInteger('pax');
             $table->date('date_order');
+            $table->string('negotiation');
             $table->string('place');
             $table->timestamps();
         });

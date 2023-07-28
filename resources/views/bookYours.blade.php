@@ -12,7 +12,9 @@
                 <th scope="col">Ponsel</th>
                 <th scope="col">PAX</th>
                 <th scope="col">Date</th>
+                <th scope="col">Negotiation Price</th>
                 <th scope="col">Place</th>
+                <th scope="col">Cancel</th>
             </tr>
         </thead>
         <tbody>
@@ -22,7 +24,9 @@
                     <td>{{ $book->no_phone }}</td>
                     <td>{{ $book->pax }}</td>
                     <td>{{ $book->date_order }}</td>
+                    <td>{{ $book->negotiation }}</td>
                     <td>{{ $book->place }}</td>
+                    <td><a href="/bookYours/{{ $book->id }}" class="btn btn-outline-danger">Cancel</a></td>
                 </tr>
             @empty
                 <tr>
