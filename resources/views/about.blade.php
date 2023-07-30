@@ -37,49 +37,49 @@
             <div class="owl-cites-town owl-carousel">
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-01.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-01.jpg') }}" alt="">
                   <h4>Bidadari Cliffside Estate</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-02.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-02.jpg') }}" alt="">
                   <h4>Courtyard By Marriott</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-03.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-03.jpg') }}" alt="">
                   <h4>Grand Hyatt</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-04.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-04.jpg') }}" alt="">
                   <h4>Mahogany</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-01.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-01.jpg') }}" alt="">
                   <h4>Bidadari Cliffside Estate</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-02.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-02.jpg') }}" alt="">
                   <h4>Courtyard By Marriott</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-03.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-03.jpg') }}" alt="">
                   <h4>Grand Hyatt</h4>
                 </div>
               </div>
               <div class="item">
                 <div class="thumb">
-                  <img src="assets/images/cities-04.jpg" alt="">
+                  <img src="{{ asset('assets/images/cities-04.jpg') }}" alt="">
                   <h4>Mahogany</h4>
                 </div>
               </div>
@@ -108,7 +108,7 @@
                 <div class="owl-weekly-offers owl-carousel">
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/images/offers-01.jpg" alt="">
+                            <img src="{{ asset('assets/images/offers-01.jpg') }}" alt="">
                             <div class="text">
                                 <h4>Bidadari Cliffside Estate<br><span><i class="fa fa-users"></i> 100 pax</span></h4>
                                 <h6>150 juta<br><span>/event</span></h6>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/images/offers-02.jpg" alt="">
+                            <img src="{{ asset('assets/images/offers-02.jpg') }}" alt="">
                             <div class="text">
                                 <h4>Kingston<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
                                 <h6>$420<br><span>/person</span></h6>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/images/offers-03.jpg" alt="">
+                            <img src="{{ asset('assets/images/offers-03.jpg') }}" alt="">
                             <div class="text">
                                 <h4>George Town<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
                                 <h6>$420<br><span>/person</span></h6>
@@ -165,7 +165,7 @@
                     </div>
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/images/offers-01.jpg" alt="">
+                            <img src="{{ asset('assets/images/offers-01.jpg') }}" alt="">
                             <div class="text">
                                 <h4>Havana<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
                                 <h6>$420<br><span>/person</span></h6>
@@ -184,7 +184,7 @@
                     </div>
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/images/offers-02.jpg" alt="">
+                            <img src="{{ asset('assets/images/offers-02.jpg') }}" alt="">
                             <div class="text">
                                 <h4>Kingston<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
                                 <h6>$420<br><span>/person</span></h6>
@@ -203,7 +203,7 @@
                     </div>
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/images/offers-03.jpg" alt="">
+                            <img src="{{ asset('assets/images/offers-03.jpg') }}" alt="">
                             <div class="text">
                                 <h4>George Town<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
                                 <h6>$420<br><span>/person</span></h6>
@@ -231,7 +231,7 @@
         <div class="row">
             <div class="col-lg-6 align-self-center">
                 <div class="left-image">
-                    <img src="assets/images/about-left-image.jpg" alt="">
+                    <img src="{{ asset('assets/images/about-left-image.jpg') }}" alt="">
                 </div>
             </div>
             <div class="col-lg-6">

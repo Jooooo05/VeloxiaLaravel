@@ -15,53 +15,7 @@
     </div>
 </div>
 
-{{-- <div class="search-form">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <form id="search-form" name="gs" method="submit" role="search" action="#">
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <h4>Sort Deals By:</h4>
-                        </div>
-                        <div class="col-lg-4">
-                            <fieldset>
-                                <select name="Location" class="form-select" aria-label="Default select example"
-                                    id="chooseLocation" onChange="this.form.click()">
-                                    <option selected>Places</option>
-                                    <option type="checkbox" name="option1" value="Italy">Italy</option>
-                                    <option value="Bali">Bali</option>
-                                    <option value="Jakarta">Jakarta</option>
-                                    <option value="Bandung">Bandung</option>
-                                    <option value="Papua">Papua</option>
-                                    <option value="Belitung">Belitung (soon)</option>
-                                </select>
-                            </fieldset>
-                        </div>
-                        <div class="col-lg-4">
-                            <fieldset>
-                                <select name="Price" class="form-select" aria-label="Default select example"
-                                    id="choosePrice" onChange="this.form.click()">
-                                    <option selected>Price Range</option>
-                                    <option value="50">Rp. 50 juta - Rp. 70 juta </option>
-                                    <option value="90">Rp. 71 juta - Rp. 90 juta</option>
-                                    <option value="120">Rp. 91 juta - Rp. 120 juta</option>
-                                    <option value="150">Rp. 121 juta - Rp. 150 juta</option>
-                                    <option value="150+">Rp. 150 juta +</option>
-                                </select>
-                            </fieldset>
-                        </div>
-                        <div class="col-lg-2">
-                            <fieldset>
-                                <button class="border-button">Search Results</button>
-                            </fieldset>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div> --}}
+
 
 <div class="amazing-deals">
     <div class="container">

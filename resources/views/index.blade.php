@@ -219,7 +219,7 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-5">
                     <div class="image">
-                      <img src="assets/images/country-02.jpg" alt="">
+                      <img src="{{ asset('assets/images/country-02.jpg') }}" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-sm-7">
@@ -249,7 +249,7 @@
                 <div class="row">
                   <div class="col-lg-4 col-sm-5">
                     <div class="image">
-                      <img src="assets/images/country-03.jpg" alt="">
+                      <img src="{{ asset('assets/images/country-03.jpg') }}" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-sm-7">
@@ -276,15 +276,6 @@
               </div>
             </div>
 
-            {{-- <div class="col-lg-12">
-              <ul class="page-numbers">
-                <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-                <li><a href="#">1</a></li>
-                <li class="active"><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-              </ul>
-            </div> --}}
 
           </div>
         </div>
