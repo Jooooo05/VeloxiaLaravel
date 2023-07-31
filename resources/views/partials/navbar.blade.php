@@ -28,7 +28,7 @@
               <li><a href="/about" class=" {{ ($title === "About") ? 'active' : '' }} ">About</a></li>
               <li><a href="/deals" class=" {{ ($title === "Deals") ? 'active' : '' }} ">Deals</a></li>
               <li><a href="/reservation" class=" {{ ($title === "Reservation") ? 'active' : '' }} ">Reservation</a></li>
-              <li><a href="/bookYours" class="">Book Yours</a></li>
+              <li><a href="/bookYours" class="{{ ($title === "Book Yours") ? 'active' : '' }}">Book Yours</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>

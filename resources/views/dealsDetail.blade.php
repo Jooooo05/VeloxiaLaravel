@@ -14,8 +14,7 @@
                         satisfaction.</p>
                 </div>
             </div>
-
-            <div class="col-lg-6 col-sm-6 m-auto">
+            {{-- <div class="col-lg-6 col-sm-6 m-auto">
                 <div class="item">
                     <div class="row">
                         <div class="col-lg-6">
@@ -48,11 +47,30 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </div> --}}
         </div>
     </div>
 </div>
+
+    <div class="card m-auto" style="width: 18rem;">
+        <img src="{{ asset('assets/images') }}/{{ $detail->img }}" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="card-body">
+            <h5 class="card-title">*Best Vendor in {{ $detail->name_place }}</h5>
+            <p class="card-text">{{ $detail->title }}</p>
+        </div>
+
+        <ul class="list-group list-group-light list-group-small">
+            <li class="list-group-item px-4">{{ $detail->vendor_name }}</li>
+            <li class="list-group-item px-4">No handphone : {{ $detail->vendor_phone }}</li>
+            <li class="list-group-item px-4">{{ $detail->name_area }}</li>
+            <li class="list-group-item px-4">Open Price : Rp {{ $detail->open_price }}</li>
+        </ul>
+
+        <div class="card-body">
+            <a href="#" class="card-link">Comunicate</a>
+            <a href="#" class="card-link">Book Yours now</a>
+        </div>
+    </div>
 
 <div class="call-to-action">
     <div class="container">
